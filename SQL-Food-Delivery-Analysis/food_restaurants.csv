@@ -1,0 +1,501 @@
+restaurant_id,restaurant_name,city,area,cuisine_type,avg_rating,is_veg,delivery_fee
+1,Royal Feast 1,Kolkata,South,Mughlai,3.1,0,56.21
+2,Chai Adda 2,Bengaluru,Central,Healthy,4.9,1,38.14
+3,Urban Bites 3,Jaipur,Old City,Biryani,3.0,1,73.01
+4,Curry Palace 4,Lucknow,IT Park,Desserts,4.3,1,58.82
+5,Food Express 5,Pune,West,South Indian,3.1,1,37.3
+6,Midnight Cravings 6,Bengaluru,Residential,Pizza,3.4,1,46.49
+7,Spice Hub 7,Bengaluru,Central,Healthy,4.2,0,68.26
+8,Royal Feast 8,Chennai,Residential,South Indian,4.5,1,28.18
+9,Masala Street 9,Jaipur,North,North Indian,4.5,0,41.41
+10,Spice Hub 10,Lucknow,Market Area,Biryani,5.0,0,34.52
+11,Chai Adda 11,Chennai,South,Mughlai,4.0,0,17.37
+12,Chai Adda 12,Jaipur,East,Biryani,3.9,0,59.81
+13,Tandoori Tales 13,Pune,North,North Indian,3.8,0,43.34
+14,Tandoori Tales 14,Ahmedabad,Old City,Healthy,3.8,1,71.04
+15,Grill House 15,Lucknow,IT Park,Desserts,4.4,1,61.22
+16,Curry Palace 16,Pune,South,Healthy,3.3,1,19.06
+17,Midnight Cravings 17,Jaipur,North,Fast Food,3.9,0,62.25
+18,Masala Street 18,Jaipur,North,Cafe,4.7,0,18.46
+19,Urban Bites 19,Lucknow,Central,Healthy,3.3,1,31.34
+20,Urban Bites 20,Kolkata,West,Desserts,3.1,0,19.95
+21,Royal Feast 21,Lucknow,Central,Pizza,4.8,0,22.82
+22,Spice Hub 22,Ahmedabad,North,Healthy,3.7,0,39.23
+23,Urban Bites 23,Lucknow,Outskirts,Desserts,4.8,1,43.27
+24,Curry Palace 24,Lucknow,South,Healthy,4.3,1,56.71
+25,Masala Street 25,Bengaluru,North,Cafe,4.3,1,37.11
+26,Masala Street 26,Pune,Residential,North Indian,4.9,1,61.51
+27,Curry Palace 27,Mumbai,Central,Cafe,4.3,1,49.27
+28,Midnight Cravings 28,Mumbai,North,Fast Food,4.9,0,77.01
+29,Food Express 29,Jaipur,Market Area,Healthy,4.8,0,56.08
+30,Curry Palace 30,Jaipur,Central,Pizza,4.6,0,68.08
+31,Grill House 31,Lucknow,North,Healthy,4.2,1,51.22
+32,Spice Hub 32,Ahmedabad,Old City,Mughlai,3.4,0,70.18
+33,Royal Feast 33,Kolkata,West,South Indian,3.2,0,47.92
+34,Curry Palace 34,Chennai,South,Pizza,4.5,0,31.48
+35,Curry Palace 35,Pune,Central,Cafe,4.9,0,11.9
+36,Urban Bites 36,Delhi,IT Park,South Indian,3.6,1,72.51
+37,Royal Feast 37,Chennai,North,North Indian,3.4,0,44.51
+38,Royal Feast 38,Jaipur,North,Pizza,3.1,1,48.72
+39,Grill House 39,Mumbai,Central,Mughlai,4.3,0,28.84
+40,Tandoori Tales 40,Lucknow,East,Healthy,4.3,0,31.32
+41,Grill House 41,Pune,North,Healthy,3.4,0,36.13
+42,Food Express 42,Bengaluru,Residential,Mughlai,4.9,1,12.93
+43,Chai Adda 43,Ahmedabad,West,Chinese,3.0,1,29.13
+44,Royal Feast 44,Chennai,Old City,Fast Food,4.2,1,13.18
+45,Chai Adda 45,Jaipur,North,Pizza,3.2,0,68.13
+46,Urban Bites 46,Jaipur,IT Park,Fast Food,4.2,1,71.88
+47,Urban Bites 47,Kolkata,Market Area,Pizza,3.5,1,33.91
+48,Chai Adda 48,Ahmedabad,Old City,North Indian,4.8,0,55.25
+49,Chai Adda 49,Delhi,Market Area,North Indian,4.8,0,38.92
+50,Royal Feast 50,Ahmedabad,Residential,South Indian,4.6,0,47.71
+51,Tandoori Tales 51,Ahmedabad,Old City,Mughlai,4.7,1,37.07
+52,Tandoori Tales 52,Delhi,Market Area,Biryani,4.9,1,10.66
+53,Urban Bites 53,Delhi,Old City,Fast Food,3.2,1,66.59
+54,Food Express 54,Hyderabad,Market Area,Biryani,3.1,1,73.32
+55,Food Express 55,Lucknow,Central,Fast Food,5.0,1,17.77
+56,Chai Adda 56,Chennai,Residential,Desserts,3.3,0,56.19
+57,Chai Adda 57,Lucknow,Outskirts,Chinese,3.1,0,62.22
+58,Urban Bites 58,Bengaluru,Outskirts,Fast Food,4.8,1,23.43
+59,Midnight Cravings 59,Delhi,Outskirts,Pizza,4.4,1,10.14
+60,Spice Hub 60,Pune,Old City,Mughlai,4.7,1,29.18
+61,Grill House 61,Jaipur,Market Area,Biryani,4.0,0,71.87
+62,Spice Hub 62,Hyderabad,West,Mughlai,4.1,1,10.36
+63,Masala Street 63,Hyderabad,North,Cafe,4.6,0,78.47
+64,Tandoori Tales 64,Pune,East,Fast Food,3.3,1,14.4
+65,Spice Hub 65,Mumbai,Market Area,Mughlai,4.6,1,68.84
+66,Tandoori Tales 66,Hyderabad,Market Area,Fast Food,4.9,0,67.51
+67,Food Express 67,Jaipur,North,Cafe,4.2,0,53.77
+68,Tandoori Tales 68,Lucknow,North,North Indian,4.8,1,31.93
+69,Curry Palace 69,Mumbai,Central,Desserts,3.1,1,14.61
+70,Midnight Cravings 70,Delhi,Central,Pizza,4.7,1,16.71
+71,Food Express 71,Pune,Outskirts,Cafe,3.0,1,42.49
+72,Chai Adda 72,Pune,Outskirts,South Indian,3.7,0,41.79
+73,Chai Adda 73,Kolkata,East,South Indian,3.2,0,51.5
+74,Chai Adda 74,Hyderabad,South,Healthy,3.5,1,43.7
+75,Grill House 75,Lucknow,South,Fast Food,3.3,0,14.23
+76,Chai Adda 76,Chennai,IT Park,Healthy,4.9,1,31.78
+77,Curry Palace 77,Jaipur,South,Desserts,3.6,1,30.37
+78,Midnight Cravings 78,Delhi,Outskirts,Chinese,3.1,0,39.54
+79,Food Express 79,Hyderabad,East,South Indian,3.7,1,58.63
+80,Chai Adda 80,Ahmedabad,Old City,Cafe,4.1,1,53.13
+81,Masala Street 81,Pune,South,South Indian,3.9,0,44.72
+82,Food Express 82,Delhi,East,Desserts,4.2,0,43.65
+83,Royal Feast 83,Kolkata,East,Mughlai,3.4,0,35.4
+84,Masala Street 84,Mumbai,Central,Healthy,3.2,1,40.83
+85,Masala Street 85,Lucknow,Central,North Indian,3.4,1,22.19
+86,Curry Palace 86,Chennai,Old City,Healthy,3.5,0,11.5
+87,Tandoori Tales 87,Chennai,Central,Chinese,3.8,0,33.69
+88,Urban Bites 88,Hyderabad,Market Area,Fast Food,3.7,1,56.26
+89,Chai Adda 89,Jaipur,IT Park,South Indian,3.2,0,65.64
+90,Midnight Cravings 90,Hyderabad,IT Park,Biryani,3.6,1,78.39
+91,Spice Hub 91,Hyderabad,Outskirts,Cafe,3.4,1,65.27
+92,Food Express 92,Kolkata,Central,Pizza,4.7,1,24.65
+93,Grill House 93,Mumbai,Outskirts,South Indian,3.3,1,62.59
+94,Masala Street 94,Jaipur,Market Area,Healthy,3.9,1,59.87
+95,Grill House 95,Jaipur,Market Area,Desserts,3.5,1,54.67
+96,Spice Hub 96,Lucknow,East,Fast Food,4.8,1,70.42
+97,Food Express 97,Pune,West,Mughlai,4.8,0,75.48
+98,Urban Bites 98,Kolkata,Residential,South Indian,3.3,0,30.65
+99,Masala Street 99,Jaipur,East,Cafe,3.1,1,39.83
+100,Royal Feast 100,Ahmedabad,IT Park,Biryani,4.6,1,29.11
+101,Curry Palace 101,Delhi,Market Area,Fast Food,3.5,0,35.14
+102,Urban Bites 102,Mumbai,Residential,Healthy,4.1,0,65.01
+103,Tandoori Tales 103,Hyderabad,North,South Indian,3.7,0,33.36
+104,Urban Bites 104,Kolkata,West,Pizza,3.4,0,79.89
+105,Urban Bites 105,Jaipur,Central,Pizza,3.6,1,64.82
+106,Royal Feast 106,Pune,Outskirts,North Indian,3.9,0,70.58
+107,Food Express 107,Hyderabad,East,Desserts,3.5,1,60.58
+108,Masala Street 108,Ahmedabad,North,Biryani,4.7,1,63.91
+109,Food Express 109,Pune,Market Area,Desserts,4.7,0,36.23
+110,Curry Palace 110,Lucknow,West,North Indian,4.0,1,33.79
+111,Royal Feast 111,Pune,IT Park,Healthy,3.6,0,49.73
+112,Curry Palace 112,Delhi,South,Biryani,4.1,1,78.61
+113,Royal Feast 113,Hyderabad,North,Healthy,3.8,1,17.6
+114,Grill House 114,Lucknow,West,South Indian,3.3,0,12.24
+115,Grill House 115,Lucknow,Central,Chinese,3.4,1,29.87
+116,Urban Bites 116,Hyderabad,Residential,South Indian,3.9,1,46.3
+117,Masala Street 117,Bengaluru,IT Park,Mughlai,3.3,0,19.04
+118,Grill House 118,Pune,North,Mughlai,4.9,0,19.1
+119,Urban Bites 119,Hyderabad,IT Park,Desserts,3.3,1,51.12
+120,Grill House 120,Jaipur,West,Fast Food,3.0,0,41.2
+121,Chai Adda 121,Pune,East,Healthy,3.7,1,42.21
+122,Spice Hub 122,Lucknow,North,Pizza,4.3,1,34.27
+123,Royal Feast 123,Chennai,Outskirts,Chinese,3.8,0,73.0
+124,Grill House 124,Pune,IT Park,Chinese,4.4,0,37.55
+125,Food Express 125,Delhi,South,Pizza,4.8,1,56.67
+126,Food Express 126,Mumbai,Market Area,Mughlai,5.0,0,79.67
+127,Tandoori Tales 127,Mumbai,Residential,Biryani,3.8,0,27.69
+128,Spice Hub 128,Jaipur,Market Area,North Indian,3.1,1,36.68
+129,Food Express 129,Pune,IT Park,North Indian,3.0,0,59.64
+130,Masala Street 130,Bengaluru,Market Area,Desserts,3.9,0,48.39
+131,Grill House 131,Hyderabad,South,Desserts,4.6,0,21.94
+132,Chai Adda 132,Delhi,North,Chinese,3.6,1,21.79
+133,Urban Bites 133,Delhi,South,Desserts,3.7,0,60.01
+134,Food Express 134,Jaipur,Market Area,North Indian,4.7,0,37.34
+135,Grill House 135,Chennai,Central,Cafe,3.0,1,63.7
+136,Masala Street 136,Hyderabad,East,Fast Food,3.2,1,11.96
+137,Masala Street 137,Delhi,East,South Indian,3.4,0,65.78
+138,Curry Palace 138,Bengaluru,Central,Mughlai,4.0,1,32.59
+139,Chai Adda 139,Hyderabad,East,Healthy,3.8,1,18.46
+140,Tandoori Tales 140,Hyderabad,Old City,Biryani,3.3,1,55.78
+141,Royal Feast 141,Delhi,East,Desserts,3.4,1,55.5
+142,Spice Hub 142,Kolkata,North,Fast Food,3.8,1,78.82
+143,Midnight Cravings 143,Mumbai,Outskirts,Chinese,3.5,0,51.99
+144,Curry Palace 144,Pune,Old City,Chinese,4.3,1,78.46
+145,Tandoori Tales 145,Ahmedabad,Old City,North Indian,4.2,1,36.77
+146,Midnight Cravings 146,Hyderabad,Outskirts,North Indian,3.5,0,31.62
+147,Food Express 147,Pune,Outskirts,South Indian,3.1,1,44.91
+148,Curry Palace 148,Hyderabad,IT Park,Fast Food,4.3,0,74.64
+149,Grill House 149,Lucknow,Old City,Chinese,3.6,0,46.46
+150,Urban Bites 150,Pune,Central,Fast Food,4.7,1,33.99
+151,Midnight Cravings 151,Hyderabad,Central,Fast Food,4.6,0,52.56
+152,Midnight Cravings 152,Pune,Old City,Chinese,3.9,0,14.52
+153,Tandoori Tales 153,Ahmedabad,East,North Indian,4.3,0,75.68
+154,Tandoori Tales 154,Bengaluru,South,Cafe,4.1,0,26.54
+155,Royal Feast 155,Mumbai,Market Area,Pizza,3.3,0,27.14
+156,Chai Adda 156,Bengaluru,East,Pizza,3.6,1,77.74
+157,Urban Bites 157,Hyderabad,Market Area,South Indian,4.9,1,37.88
+158,Grill House 158,Bengaluru,Market Area,Mughlai,4.0,1,63.22
+159,Spice Hub 159,Ahmedabad,IT Park,Mughlai,4.7,1,51.66
+160,Midnight Cravings 160,Bengaluru,South,Pizza,3.8,1,41.75
+161,Midnight Cravings 161,Pune,Outskirts,Desserts,3.1,0,60.04
+162,Curry Palace 162,Hyderabad,East,North Indian,3.0,1,44.4
+163,Royal Feast 163,Pune,Old City,Mughlai,4.0,0,38.62
+164,Tandoori Tales 164,Delhi,IT Park,Cafe,3.3,1,77.0
+165,Midnight Cravings 165,Kolkata,Market Area,Biryani,4.4,1,74.86
+166,Food Express 166,Hyderabad,Market Area,North Indian,4.8,1,54.17
+167,Curry Palace 167,Delhi,West,Cafe,3.9,0,27.8
+168,Chai Adda 168,Lucknow,South,North Indian,3.2,0,55.11
+169,Royal Feast 169,Pune,Outskirts,South Indian,4.0,0,71.32
+170,Royal Feast 170,Bengaluru,West,Pizza,4.0,1,51.03
+171,Tandoori Tales 171,Pune,North,Cafe,4.6,1,67.0
+172,Food Express 172,Chennai,IT Park,Pizza,3.0,0,67.15
+173,Tandoori Tales 173,Delhi,North,Mughlai,4.0,1,61.31
+174,Curry Palace 174,Bengaluru,Old City,Chinese,4.4,0,44.05
+175,Tandoori Tales 175,Jaipur,Market Area,Cafe,4.6,0,24.07
+176,Food Express 176,Bengaluru,West,Mughlai,3.9,0,70.79
+177,Tandoori Tales 177,Bengaluru,West,South Indian,3.8,1,14.5
+178,Chai Adda 178,Delhi,East,Desserts,4.0,0,10.67
+179,Spice Hub 179,Chennai,Outskirts,North Indian,3.2,0,36.3
+180,Urban Bites 180,Jaipur,Market Area,Desserts,4.5,1,33.56
+181,Masala Street 181,Kolkata,East,Biryani,4.3,1,52.76
+182,Masala Street 182,Kolkata,North,North Indian,3.9,1,60.77
+183,Spice Hub 183,Bengaluru,Outskirts,South Indian,4.7,1,76.57
+184,Masala Street 184,Hyderabad,Market Area,Cafe,4.4,1,46.04
+185,Spice Hub 185,Hyderabad,Old City,North Indian,4.3,0,77.87
+186,Grill House 186,Kolkata,East,Cafe,4.0,0,34.38
+187,Tandoori Tales 187,Ahmedabad,IT Park,Pizza,4.2,0,70.89
+188,Midnight Cravings 188,Lucknow,Central,Chinese,4.0,0,31.09
+189,Grill House 189,Jaipur,South,Desserts,4.9,1,56.38
+190,Food Express 190,Hyderabad,East,Chinese,4.5,0,17.38
+191,Curry Palace 191,Delhi,Old City,Mughlai,4.5,0,60.34
+192,Tandoori Tales 192,Ahmedabad,South,Healthy,4.3,1,16.33
+193,Food Express 193,Kolkata,Outskirts,Cafe,3.1,1,36.39
+194,Midnight Cravings 194,Pune,IT Park,Fast Food,3.4,0,30.37
+195,Tandoori Tales 195,Mumbai,Old City,Cafe,4.9,0,50.1
+196,Masala Street 196,Bengaluru,IT Park,Cafe,4.5,1,14.33
+197,Food Express 197,Jaipur,IT Park,Mughlai,3.6,1,65.83
+198,Midnight Cravings 198,Bengaluru,Outskirts,Cafe,3.4,1,10.64
+199,Masala Street 199,Ahmedabad,South,Pizza,4.7,1,57.6
+200,Chai Adda 200,Bengaluru,West,Chinese,4.5,0,51.92
+201,Midnight Cravings 201,Chennai,North,Pizza,5.0,1,54.18
+202,Grill House 202,Hyderabad,West,Mughlai,3.1,1,20.69
+203,Food Express 203,Hyderabad,Central,Chinese,4.7,1,30.94
+204,Spice Hub 204,Bengaluru,Residential,Mughlai,3.7,1,79.32
+205,Royal Feast 205,Pune,North,Healthy,4.5,1,58.75
+206,Midnight Cravings 206,Hyderabad,IT Park,South Indian,3.3,0,69.49
+207,Grill House 207,Chennai,South,Cafe,3.3,1,30.38
+208,Food Express 208,Bengaluru,East,Fast Food,4.5,0,35.36
+209,Tandoori Tales 209,Lucknow,South,Mughlai,4.9,1,57.56
+210,Spice Hub 210,Bengaluru,North,Biryani,4.9,0,76.15
+211,Midnight Cravings 211,Mumbai,Old City,Cafe,3.9,0,53.89
+212,Food Express 212,Pune,Central,South Indian,3.5,1,31.19
+213,Curry Palace 213,Lucknow,IT Park,South Indian,4.6,1,29.27
+214,Masala Street 214,Ahmedabad,Central,South Indian,3.2,0,44.25
+215,Food Express 215,Jaipur,Central,Cafe,4.1,1,29.16
+216,Chai Adda 216,Mumbai,South,Mughlai,4.0,1,30.89
+217,Tandoori Tales 217,Bengaluru,Old City,South Indian,4.4,0,38.37
+218,Royal Feast 218,Delhi,Residential,Healthy,4.6,1,14.48
+219,Midnight Cravings 219,Lucknow,North,Fast Food,4.9,0,22.65
+220,Curry Palace 220,Lucknow,Central,Healthy,3.9,1,18.61
+221,Chai Adda 221,Bengaluru,East,Chinese,3.2,1,69.6
+222,Tandoori Tales 222,Delhi,North,Healthy,3.6,0,39.61
+223,Food Express 223,Delhi,West,North Indian,4.9,1,56.14
+224,Curry Palace 224,Ahmedabad,Outskirts,Desserts,4.4,1,52.43
+225,Food Express 225,Jaipur,North,North Indian,3.5,0,19.92
+226,Curry Palace 226,Hyderabad,Outskirts,Healthy,3.4,1,29.42
+227,Royal Feast 227,Lucknow,North,Healthy,3.5,1,55.48
+228,Royal Feast 228,Bengaluru,Market Area,South Indian,4.9,1,75.81
+229,Midnight Cravings 229,Bengaluru,East,South Indian,4.3,1,79.68
+230,Masala Street 230,Hyderabad,Outskirts,Healthy,4.2,1,67.51
+231,Royal Feast 231,Kolkata,IT Park,North Indian,4.9,0,15.43
+232,Midnight Cravings 232,Mumbai,North,Healthy,3.8,1,54.81
+233,Masala Street 233,Kolkata,West,Chinese,4.7,0,29.16
+234,Royal Feast 234,Mumbai,East,Mughlai,4.9,0,22.3
+235,Chai Adda 235,Chennai,Market Area,South Indian,4.1,1,48.61
+236,Tandoori Tales 236,Lucknow,Central,Chinese,3.6,1,22.65
+237,Midnight Cravings 237,Jaipur,Outskirts,Mughlai,4.0,0,28.13
+238,Curry Palace 238,Jaipur,South,Chinese,3.8,1,13.7
+239,Food Express 239,Kolkata,Outskirts,Mughlai,4.4,0,40.73
+240,Grill House 240,Kolkata,Residential,Pizza,3.6,1,46.44
+241,Urban Bites 241,Hyderabad,North,Pizza,3.8,1,69.17
+242,Tandoori Tales 242,Mumbai,East,South Indian,3.3,0,15.92
+243,Midnight Cravings 243,Chennai,Market Area,North Indian,4.9,1,57.39
+244,Grill House 244,Bengaluru,Market Area,Healthy,4.4,0,38.38
+245,Food Express 245,Lucknow,Central,Mughlai,4.4,1,27.1
+246,Chai Adda 246,Jaipur,Central,Cafe,3.9,0,57.22
+247,Food Express 247,Jaipur,South,South Indian,3.7,0,45.96
+248,Royal Feast 248,Delhi,Market Area,Mughlai,3.3,0,33.66
+249,Midnight Cravings 249,Hyderabad,North,Pizza,3.6,1,28.53
+250,Chai Adda 250,Delhi,IT Park,Fast Food,4.8,0,75.48
+251,Grill House 251,Lucknow,Central,Biryani,3.0,1,33.0
+252,Tandoori Tales 252,Kolkata,Central,Biryani,4.8,0,38.14
+253,Tandoori Tales 253,Delhi,IT Park,Desserts,3.4,0,38.75
+254,Spice Hub 254,Ahmedabad,South,Pizza,3.5,1,36.2
+255,Royal Feast 255,Kolkata,South,Healthy,4.6,0,79.26
+256,Curry Palace 256,Ahmedabad,South,Biryani,4.5,0,35.15
+257,Tandoori Tales 257,Hyderabad,East,Pizza,3.1,1,39.47
+258,Spice Hub 258,Kolkata,South,Fast Food,4.9,1,18.32
+259,Midnight Cravings 259,Ahmedabad,Market Area,Chinese,3.6,1,45.13
+260,Curry Palace 260,Pune,North,South Indian,4.6,0,20.89
+261,Spice Hub 261,Jaipur,East,North Indian,4.4,1,40.08
+262,Spice Hub 262,Lucknow,IT Park,Desserts,3.6,1,15.78
+263,Food Express 263,Pune,Outskirts,Chinese,4.5,0,27.46
+264,Urban Bites 264,Mumbai,East,Mughlai,3.4,0,59.08
+265,Chai Adda 265,Jaipur,South,Fast Food,5.0,0,26.06
+266,Royal Feast 266,Bengaluru,Central,Pizza,5.0,0,39.84
+267,Food Express 267,Lucknow,North,North Indian,3.8,1,59.01
+268,Food Express 268,Hyderabad,Old City,Mughlai,4.0,1,55.07
+269,Tandoori Tales 269,Chennai,West,Biryani,3.6,1,59.81
+270,Masala Street 270,Hyderabad,Central,Chinese,3.1,0,56.23
+271,Food Express 271,Kolkata,West,Desserts,3.6,0,40.16
+272,Grill House 272,Chennai,Old City,Biryani,3.6,0,56.83
+273,Curry Palace 273,Jaipur,Old City,Biryani,4.5,1,62.01
+274,Midnight Cravings 274,Lucknow,Outskirts,Biryani,3.5,1,24.7
+275,Tandoori Tales 275,Pune,North,Chinese,4.3,0,12.87
+276,Food Express 276,Hyderabad,Market Area,South Indian,3.1,1,31.1
+277,Food Express 277,Ahmedabad,Residential,Chinese,3.1,0,39.27
+278,Midnight Cravings 278,Chennai,Old City,Biryani,3.9,0,73.76
+279,Grill House 279,Mumbai,IT Park,Healthy,4.9,0,21.69
+280,Curry Palace 280,Chennai,West,North Indian,4.9,0,65.61
+281,Royal Feast 281,Hyderabad,Market Area,Healthy,4.7,0,21.59
+282,Royal Feast 282,Jaipur,Residential,Mughlai,3.8,1,24.48
+283,Curry Palace 283,Delhi,Outskirts,Fast Food,4.2,0,71.54
+284,Grill House 284,Jaipur,Residential,Healthy,3.5,0,30.75
+285,Midnight Cravings 285,Chennai,North,Chinese,3.4,0,30.43
+286,Urban Bites 286,Bengaluru,South,Pizza,4.7,0,54.97
+287,Food Express 287,Hyderabad,Residential,South Indian,3.0,1,54.29
+288,Masala Street 288,Kolkata,North,Healthy,3.5,0,38.58
+289,Urban Bites 289,Lucknow,Old City,North Indian,4.3,0,67.68
+290,Urban Bites 290,Hyderabad,South,Pizza,4.9,0,60.58
+291,Urban Bites 291,Pune,Outskirts,Healthy,3.4,1,25.44
+292,Food Express 292,Chennai,Outskirts,Mughlai,3.3,0,61.09
+293,Masala Street 293,Pune,South,Desserts,3.2,0,42.16
+294,Food Express 294,Bengaluru,Outskirts,Desserts,4.9,0,55.33
+295,Urban Bites 295,Delhi,South,Chinese,4.6,0,14.86
+296,Royal Feast 296,Mumbai,East,Desserts,4.8,1,17.02
+297,Curry Palace 297,Jaipur,Central,Cafe,3.2,1,11.45
+298,Spice Hub 298,Delhi,South,Fast Food,4.5,1,19.98
+299,Spice Hub 299,Lucknow,Central,South Indian,4.1,1,69.69
+300,Food Express 300,Mumbai,South,Desserts,4.5,1,67.08
+301,Masala Street 301,Chennai,Market Area,Chinese,3.5,1,53.92
+302,Spice Hub 302,Mumbai,Central,South Indian,4.1,0,45.81
+303,Curry Palace 303,Pune,Central,Fast Food,3.0,1,36.98
+304,Urban Bites 304,Kolkata,East,Mughlai,4.4,0,44.43
+305,Food Express 305,Mumbai,North,Pizza,3.7,1,18.28
+306,Spice Hub 306,Mumbai,Outskirts,Chinese,3.4,1,51.97
+307,Curry Palace 307,Pune,West,Cafe,4.6,1,71.28
+308,Grill House 308,Chennai,Old City,Pizza,4.6,0,65.22
+309,Curry Palace 309,Bengaluru,Old City,Chinese,3.8,1,67.03
+310,Chai Adda 310,Mumbai,IT Park,Pizza,3.3,1,79.63
+311,Royal Feast 311,Bengaluru,Old City,Biryani,4.0,1,58.54
+312,Chai Adda 312,Pune,Old City,Chinese,4.6,0,36.82
+313,Grill House 313,Jaipur,Residential,Healthy,4.0,0,36.92
+314,Royal Feast 314,Lucknow,Residential,Cafe,4.6,0,59.22
+315,Masala Street 315,Hyderabad,Central,Fast Food,5.0,0,35.37
+316,Curry Palace 316,Ahmedabad,North,North Indian,4.8,1,69.41
+317,Urban Bites 317,Bengaluru,Market Area,Chinese,4.7,1,26.97
+318,Spice Hub 318,Hyderabad,South,South Indian,4.9,0,36.42
+319,Royal Feast 319,Delhi,Old City,North Indian,4.4,0,43.38
+320,Curry Palace 320,Lucknow,Central,Chinese,3.7,0,27.15
+321,Chai Adda 321,Delhi,IT Park,Chinese,4.5,1,62.05
+322,Urban Bites 322,Jaipur,Market Area,Mughlai,4.4,1,64.7
+323,Urban Bites 323,Delhi,North,Chinese,3.1,0,52.29
+324,Midnight Cravings 324,Bengaluru,South,North Indian,3.8,1,57.59
+325,Midnight Cravings 325,Ahmedabad,West,Cafe,4.0,0,39.66
+326,Urban Bites 326,Bengaluru,North,Healthy,3.8,0,62.02
+327,Chai Adda 327,Pune,Central,Fast Food,3.8,0,67.16
+328,Grill House 328,Ahmedabad,Old City,Mughlai,4.7,0,13.83
+329,Royal Feast 329,Kolkata,East,Pizza,3.2,0,35.39
+330,Spice Hub 330,Kolkata,East,Pizza,3.3,0,14.57
+331,Spice Hub 331,Lucknow,West,Fast Food,4.1,0,26.82
+332,Chai Adda 332,Mumbai,Outskirts,North Indian,4.1,1,13.2
+333,Tandoori Tales 333,Kolkata,West,North Indian,5.0,1,77.11
+334,Food Express 334,Jaipur,Old City,Mughlai,4.5,0,59.19
+335,Masala Street 335,Mumbai,IT Park,Healthy,3.2,0,11.66
+336,Grill House 336,Pune,Outskirts,North Indian,3.6,0,57.77
+337,Tandoori Tales 337,Mumbai,East,Fast Food,4.6,0,63.82
+338,Midnight Cravings 338,Bengaluru,Residential,Cafe,4.3,1,41.32
+339,Masala Street 339,Bengaluru,West,Biryani,4.2,1,12.8
+340,Food Express 340,Pune,East,Cafe,4.2,0,49.68
+341,Tandoori Tales 341,Ahmedabad,Central,Chinese,4.5,1,48.3
+342,Grill House 342,Mumbai,North,Desserts,3.6,1,21.3
+343,Chai Adda 343,Chennai,Old City,Biryani,3.2,0,59.75
+344,Urban Bites 344,Ahmedabad,Market Area,Pizza,4.5,1,55.52
+345,Tandoori Tales 345,Bengaluru,Outskirts,Desserts,3.1,1,38.07
+346,Curry Palace 346,Lucknow,Market Area,Biryani,4.0,1,36.16
+347,Midnight Cravings 347,Pune,Market Area,Pizza,4.8,0,53.44
+348,Food Express 348,Delhi,Residential,North Indian,3.3,0,30.35
+349,Chai Adda 349,Bengaluru,IT Park,South Indian,3.4,1,56.84
+350,Grill House 350,Kolkata,Market Area,Healthy,4.8,1,17.64
+351,Tandoori Tales 351,Bengaluru,IT Park,Mughlai,3.4,1,14.51
+352,Chai Adda 352,Kolkata,Market Area,Fast Food,4.4,1,18.0
+353,Spice Hub 353,Ahmedabad,Residential,Chinese,4.9,0,54.82
+354,Chai Adda 354,Kolkata,Central,Cafe,4.5,0,75.55
+355,Royal Feast 355,Kolkata,Market Area,Fast Food,3.1,0,76.69
+356,Urban Bites 356,Pune,West,Chinese,3.2,0,29.17
+357,Urban Bites 357,Mumbai,Market Area,Mughlai,4.0,1,22.89
+358,Tandoori Tales 358,Delhi,IT Park,Biryani,4.9,1,21.52
+359,Royal Feast 359,Kolkata,Market Area,Desserts,4.1,0,77.59
+360,Masala Street 360,Pune,Outskirts,Mughlai,4.6,0,15.45
+361,Chai Adda 361,Lucknow,South,Biryani,4.3,1,10.99
+362,Curry Palace 362,Ahmedabad,Market Area,Biryani,3.2,1,28.4
+363,Grill House 363,Delhi,South,Desserts,4.3,0,12.55
+364,Royal Feast 364,Hyderabad,Residential,Chinese,4.2,0,34.37
+365,Chai Adda 365,Hyderabad,Central,Biryani,4.6,0,31.14
+366,Midnight Cravings 366,Chennai,North,Desserts,4.3,1,38.98
+367,Masala Street 367,Kolkata,Residential,Mughlai,4.0,1,17.94
+368,Grill House 368,Bengaluru,IT Park,Biryani,3.4,0,47.99
+369,Urban Bites 369,Pune,IT Park,Pizza,4.4,0,79.68
+370,Tandoori Tales 370,Mumbai,Central,Cafe,4.9,0,44.75
+371,Midnight Cravings 371,Lucknow,North,Desserts,4.0,0,56.74
+372,Food Express 372,Pune,East,Desserts,4.1,0,23.69
+373,Tandoori Tales 373,Ahmedabad,Old City,Desserts,3.8,1,10.53
+374,Food Express 374,Kolkata,Residential,Pizza,3.5,1,31.52
+375,Food Express 375,Pune,Central,Mughlai,3.1,0,20.74
+376,Midnight Cravings 376,Kolkata,Outskirts,Biryani,3.7,1,26.93
+377,Food Express 377,Pune,Outskirts,Mughlai,4.7,1,19.02
+378,Curry Palace 378,Pune,IT Park,Biryani,4.0,1,26.17
+379,Midnight Cravings 379,Bengaluru,North,Cafe,4.6,1,68.61
+380,Masala Street 380,Bengaluru,East,South Indian,3.2,1,10.81
+381,Curry Palace 381,Lucknow,Central,Cafe,4.4,0,50.03
+382,Curry Palace 382,Delhi,Market Area,Biryani,3.4,0,30.78
+383,Food Express 383,Jaipur,IT Park,Pizza,4.3,1,15.81
+384,Spice Hub 384,Bengaluru,Outskirts,South Indian,3.2,0,17.5
+385,Urban Bites 385,Chennai,South,South Indian,3.2,1,73.89
+386,Royal Feast 386,Hyderabad,North,Desserts,4.6,1,15.15
+387,Food Express 387,Mumbai,IT Park,Mughlai,4.8,1,66.6
+388,Urban Bites 388,Bengaluru,Central,Chinese,4.3,0,18.2
+389,Masala Street 389,Kolkata,Market Area,Cafe,4.2,0,21.09
+390,Tandoori Tales 390,Chennai,East,Cafe,3.1,0,46.26
+391,Food Express 391,Bengaluru,Old City,South Indian,4.8,0,32.93
+392,Tandoori Tales 392,Hyderabad,South,Pizza,3.5,0,76.73
+393,Midnight Cravings 393,Kolkata,West,Desserts,4.5,1,40.52
+394,Food Express 394,Pune,West,Chinese,3.4,1,77.33
+395,Chai Adda 395,Mumbai,Outskirts,Pizza,3.3,0,76.76
+396,Royal Feast 396,Ahmedabad,Market Area,Mughlai,4.2,1,67.11
+397,Tandoori Tales 397,Lucknow,Outskirts,Mughlai,3.9,1,36.18
+398,Grill House 398,Mumbai,South,North Indian,4.9,1,51.08
+399,Chai Adda 399,Chennai,Residential,Biryani,3.8,0,22.59
+400,Royal Feast 400,Kolkata,South,Biryani,3.5,0,55.99
+401,Curry Palace 401,Kolkata,Old City,South Indian,3.0,0,60.18
+402,Grill House 402,Hyderabad,Outskirts,Biryani,4.8,0,36.99
+403,Food Express 403,Lucknow,Residential,Fast Food,3.2,1,60.14
+404,Chai Adda 404,Mumbai,IT Park,Mughlai,3.6,1,23.87
+405,Grill House 405,Delhi,Market Area,North Indian,5.0,1,18.35
+406,Curry Palace 406,Ahmedabad,Outskirts,Biryani,4.2,0,50.35
+407,Spice Hub 407,Chennai,Outskirts,North Indian,4.8,1,19.17
+408,Spice Hub 408,Pune,Residential,Healthy,3.1,0,14.86
+409,Royal Feast 409,Mumbai,West,Pizza,3.6,1,38.02
+410,Masala Street 410,Jaipur,Market Area,Cafe,3.1,1,58.75
+411,Grill House 411,Ahmedabad,North,Biryani,4.9,0,12.05
+412,Spice Hub 412,Delhi,South,South Indian,5.0,1,25.84
+413,Food Express 413,Mumbai,Old City,Healthy,5.0,0,28.18
+414,Tandoori Tales 414,Delhi,Central,Pizza,3.2,1,58.15
+415,Urban Bites 415,Pune,South,Chinese,4.2,0,18.84
+416,Chai Adda 416,Bengaluru,IT Park,Desserts,4.3,0,50.45
+417,Urban Bites 417,Ahmedabad,Old City,Desserts,3.5,1,63.63
+418,Masala Street 418,Mumbai,Residential,Fast Food,4.3,0,58.65
+419,Grill House 419,Mumbai,Central,Fast Food,3.0,0,42.77
+420,Food Express 420,Pune,Market Area,South Indian,3.7,1,63.23
+421,Grill House 421,Chennai,South,Healthy,3.2,0,25.31
+422,Royal Feast 422,Kolkata,Market Area,Cafe,4.0,1,23.16
+423,Royal Feast 423,Chennai,South,Pizza,4.9,0,20.31
+424,Tandoori Tales 424,Mumbai,East,North Indian,4.8,0,28.67
+425,Midnight Cravings 425,Ahmedabad,Market Area,Biryani,3.5,0,34.81
+426,Curry Palace 426,Hyderabad,IT Park,Healthy,3.9,1,13.72
+427,Masala Street 427,Chennai,North,North Indian,4.3,1,23.58
+428,Royal Feast 428,Hyderabad,South,Cafe,3.6,1,46.3
+429,Spice Hub 429,Mumbai,East,South Indian,3.4,0,72.65
+430,Urban Bites 430,Lucknow,East,South Indian,4.1,1,25.85
+431,Royal Feast 431,Lucknow,IT Park,Mughlai,3.2,1,44.66
+432,Food Express 432,Bengaluru,Old City,Pizza,4.4,1,61.37
+433,Curry Palace 433,Mumbai,Residential,Cafe,4.0,1,69.68
+434,Curry Palace 434,Hyderabad,Old City,South Indian,3.3,1,72.99
+435,Spice Hub 435,Bengaluru,Market Area,Mughlai,3.7,0,78.21
+436,Curry Palace 436,Mumbai,Central,Cafe,3.7,1,50.82
+437,Food Express 437,Ahmedabad,Market Area,South Indian,3.1,0,49.71
+438,Food Express 438,Chennai,Residential,Healthy,3.3,0,64.27
+439,Urban Bites 439,Mumbai,Old City,Desserts,4.0,1,79.29
+440,Grill House 440,Chennai,West,Biryani,3.9,1,31.08
+441,Midnight Cravings 441,Kolkata,Outskirts,Desserts,3.2,0,20.35
+442,Food Express 442,Pune,South,Biryani,4.0,0,50.43
+443,Masala Street 443,Pune,East,South Indian,3.4,1,54.71
+444,Midnight Cravings 444,Chennai,Market Area,Healthy,3.3,1,72.16
+445,Chai Adda 445,Pune,IT Park,Pizza,3.6,0,50.57
+446,Chai Adda 446,Kolkata,North,Mughlai,4.6,1,30.19
+447,Grill House 447,Delhi,South,Desserts,4.4,1,53.67
+448,Urban Bites 448,Bengaluru,Market Area,Pizza,3.1,1,11.09
+449,Food Express 449,Delhi,West,Cafe,3.2,1,31.41
+450,Masala Street 450,Pune,Central,North Indian,3.5,1,71.51
+451,Midnight Cravings 451,Jaipur,South,South Indian,4.4,0,79.71
+452,Royal Feast 452,Hyderabad,Outskirts,South Indian,3.6,0,43.12
+453,Food Express 453,Kolkata,IT Park,Mughlai,3.8,0,72.51
+454,Chai Adda 454,Chennai,West,Chinese,4.1,1,66.31
+455,Food Express 455,Bengaluru,West,Chinese,3.8,0,31.07
+456,Urban Bites 456,Mumbai,Outskirts,Desserts,4.1,1,64.77
+457,Tandoori Tales 457,Pune,South,Healthy,3.9,1,45.27
+458,Grill House 458,Kolkata,Old City,Mughlai,3.9,1,42.29
+459,Spice Hub 459,Jaipur,IT Park,South Indian,4.5,1,65.06
+460,Midnight Cravings 460,Lucknow,Old City,Chinese,4.2,1,13.75
+461,Curry Palace 461,Pune,IT Park,North Indian,3.9,1,68.74
+462,Spice Hub 462,Mumbai,West,South Indian,3.7,0,67.54
+463,Grill House 463,Lucknow,Old City,North Indian,3.2,0,59.11
+464,Curry Palace 464,Jaipur,Residential,Desserts,3.3,0,31.06
+465,Spice Hub 465,Chennai,Market Area,Cafe,4.4,0,14.7
+466,Chai Adda 466,Bengaluru,North,Healthy,3.2,0,17.25
+467,Midnight Cravings 467,Delhi,Market Area,Mughlai,3.1,0,30.99
+468,Curry Palace 468,Ahmedabad,East,Healthy,3.5,1,70.15
+469,Tandoori Tales 469,Lucknow,IT Park,Chinese,4.3,0,19.92
+470,Curry Palace 470,Hyderabad,Residential,Healthy,3.4,1,30.3
+471,Chai Adda 471,Mumbai,Market Area,Biryani,4.3,1,37.01
+472,Grill House 472,Mumbai,IT Park,Mughlai,3.3,1,42.0
+473,Royal Feast 473,Lucknow,Central,Cafe,3.6,1,12.98
+474,Curry Palace 474,Kolkata,Market Area,Desserts,3.6,0,35.04
+475,Food Express 475,Jaipur,Old City,Healthy,3.8,0,22.21
+476,Masala Street 476,Bengaluru,Outskirts,Biryani,3.9,0,29.48
+477,Royal Feast 477,Chennai,North,Desserts,3.8,1,52.41
+478,Chai Adda 478,Bengaluru,Residential,Healthy,3.5,1,51.22
+479,Masala Street 479,Lucknow,Outskirts,Cafe,4.7,0,13.15
+480,Food Express 480,Bengaluru,North,South Indian,4.0,1,32.66
+481,Food Express 481,Hyderabad,North,Chinese,4.5,1,62.91
+482,Tandoori Tales 482,Pune,Central,Cafe,3.5,0,69.28
+483,Grill House 483,Mumbai,Old City,Cafe,4.3,0,74.65
+484,Tandoori Tales 484,Kolkata,Market Area,Mughlai,3.3,0,23.7
+485,Grill House 485,Ahmedabad,West,Fast Food,3.4,0,40.38
+486,Food Express 486,Jaipur,North,Cafe,3.0,0,24.25
+487,Spice Hub 487,Bengaluru,Old City,Mughlai,4.1,0,33.85
+488,Grill House 488,Jaipur,East,Fast Food,4.1,1,45.06
+489,Chai Adda 489,Kolkata,Residential,Chinese,4.6,1,39.93
+490,Tandoori Tales 490,Pune,Outskirts,South Indian,3.3,1,17.06
+491,Food Express 491,Ahmedabad,Central,Cafe,4.1,0,25.68
+492,Urban Bites 492,Chennai,IT Park,Biryani,3.1,0,77.77
+493,Midnight Cravings 493,Mumbai,Outskirts,Fast Food,4.7,1,37.95
+494,Midnight Cravings 494,Delhi,North,Cafe,3.9,1,55.73
+495,Masala Street 495,Delhi,IT Park,Pizza,3.4,0,19.75
+496,Masala Street 496,Jaipur,Central,Fast Food,4.0,0,34.21
+497,Royal Feast 497,Mumbai,Outskirts,Cafe,4.9,1,76.26
+498,Spice Hub 498,Chennai,North,North Indian,4.0,0,55.52
+499,Grill House 499,Pune,West,Fast Food,3.0,0,11.84
+500,Midnight Cravings 500,Hyderabad,Outskirts,Mughlai,4.4,0,48.67
